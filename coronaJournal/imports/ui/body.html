@@ -1,0 +1,28 @@
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Entries</h1>
+            <form class="new-entry">
+                <input type="text" name="heading" placeholder="New Entry Heading"><br>
+                <textarea type="text" name="text" placeholder="New Entry Text"></textarea><br>
+                <input type="submit">
+            </form>
+        </header>
+
+
+
+        <div class="entryList">
+
+            {{#each entries}}
+                    
+            {{> entry}}
+
+            {{/each}}
+
+        </div>
+
+    </div>
+
+</body>
