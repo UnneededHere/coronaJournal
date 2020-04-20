@@ -1,6 +1,41 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body {
+  font-family: Amiri;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+input, textarea, h1 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 996px;
+}
+
+#subButton {
+  margin-bottom: 0;
+}
+
+.entryList {
+  margin-top: 20px;
+}
 
 .entry {
   border-style: solid;
   border-width: thin;
+  padding: 10px;
+  margin-bottom: 20px;
 };
